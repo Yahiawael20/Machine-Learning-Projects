@@ -5,6 +5,10 @@ import joblib
 
 model = joblib.load("random_forest_laptop_model.pkl")
 
+st.set_page_config(
+    page_title="Laptop Price Prediction",
+    page_icon="💻" 
+)
 
 st.title("💻 Laptop Price Predictor")
 
